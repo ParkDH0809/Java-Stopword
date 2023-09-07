@@ -6,10 +6,10 @@ class stopword {
 
     public static void main(String[] args) throws IOException {
         
-        InputStreamReader isr = new InputStreamReader(new FileInputStream("stopword.txt"), "UTF-8");
+        InputStreamReader isr = new InputStreamReader(new FileInputStream("InputStopWord.txt"), "UTF-8");
         BufferedReader br = new BufferedReader(isr);
 
-        OutputStreamWriter osr = new OutputStreamWriter(new FileOutputStream("Outputstopword.txt"), "UTF-8");
+        OutputStreamWriter osr = new OutputStreamWriter(new FileOutputStream("OutputStopWord.txt"), "UTF-8");
         BufferedWriter bw = new BufferedWriter(osr);
 
         String word;
